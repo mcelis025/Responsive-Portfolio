@@ -21,6 +21,15 @@ body {
     font-size: 40px;
     font-weight: bold;
     position: relative;
+    animation-name: colorchange;
+    animation-duration: 4s;
+    animation-direction: reverse;
+}
+
+@keyframes colorchange {
+    0% {background-color: black; left: 0px; top: 0px;}
+    50% {background-color: #195350; left: 200px; top: 0px;}
+    100% {background-color: #4aaaa5; left: 0px; top: 0px;}
 }
 
 #sectionname {
@@ -336,6 +345,64 @@ footer {
 }
 
 @media screen and (max-width: 640px) {
+    #myname {
+        margin: 0px 0px 0px 0px;
+        padding: 15px 0px 15px 0px;
+        width: 100%;
+        position: static;
+    }
+
+    .maintext {
+        margin: 3% 20px 10.5% 20px;
+    }
+
+    .maintextport {
+        margin: 3% 25px 10.5% 20px;
+        width: auto;
+    }
+
+    .pages {
+        margin-right: 37%;
+        margin-bottom: 30px;
+    }
     
+    #fname {
+        margin: 1px;
+        border-width: 1px;
+    }
+
+    #email {
+        margin: 1px;
+        border-width: 1px;
+    }
+
+    .column {
+        margin-right: 50%;
+    }
+
+    #box img {
+        height: 300%;
+        width: 300%;
+        margin-right: 0px;
+    }
+
+    #under {
+        width: auto;
+    }
+
+    .textover {
+        margin-top: -80%;
+        width: 300%;
+    }  
+
+    .textover p {
+        font-size: 50px;
+    }
+
+    #profilepic {
+        height: 100%;
+        width: 100%;
+        margin-right: 0px;
+    }
 }
 
