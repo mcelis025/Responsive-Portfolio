@@ -229,6 +229,7 @@ footer {
     width: 33.33%;
     padding: 5px 5px 5px 0px;
   }
+
   #portname {
     color:  #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -268,15 +269,70 @@ footer {
         border-width: 1px;
     }
 
+    .column {
+        margin-right: 53px;
+    }
+
     #box img {
         height: 120%;
         width: 120%;
-        margin-right: 50px;
+    }
+
+    #under {
+        width: auto;
+    }
+
+    .textover {
+        margin-top: -40%;
+        width: 120%;
     }
 }
-/*
+
 @media screen and (max-width: 768px) {
+    #myname {
+        margin: 0px 0px 0px 20px;
+    }
+
+    .maintext {
+        margin: 3% 20px 10.5% 20px;
+    }
+
+    .maintextport {
+        margin: 3% 20px 10.5% 20px;
+        width: auto;
+    }
+
+    .pages {
+        margin-right: 22px;
+    }
     
+    #fname {
+        margin: 1px;
+        border-width: 1px;
+    }
+
+    #email {
+        margin: 1px;
+        border-width: 1px;
+    }
+
+    .column {
+        margin-right: 53px;
+    }
+
+    #box img {
+        height: 120%;
+        width: 120%;
+    }
+
+    #under {
+        width: auto;
+    }
+
+    .textover {
+        margin-top: -40%;
+        width: 120%;
+    }    
 }
 
 @media screen and (max-width: 640px) {
